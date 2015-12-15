@@ -1,0 +1,10 @@
+name: bigdata-hub-test
+summary: Trivial test charm for providing a service to the Big Data Hub.
+maintainer: bigdata-dev <bigdata-dev@canonical.com>
+description: >
+  This charm provides a trivial test service for the Big Data Hub.
+tags: ["applications", "bigdata", "hadoop", "apache", "test"]
+requires:
+  hub:
+    interface: bigdata-hub
+
